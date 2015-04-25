@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85F7505B5F3E4A52AFA0A79 /* libPods-FormTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2FAD77765FAD050876BB93 /* libPods-FormTest.a */; };
+		CCD670041AEA9B160032F1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD670031AEA9B160032F1F9 /* AppDelegate.swift */; };
+		CCD670061AEA9B160032F1F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD670051AEA9B160032F1F9 /* ViewController.swift */; };
+		CCD670091AEA9B160032F1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD670071AEA9B160032F1F9 /* Main.storyboard */; };
+		CCD6700B1AEA9B160032F1F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD6700A1AEA9B160032F1F9 /* Images.xcassets */; };
+		CCD6700E1AEA9B160032F1F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD6700C1AEA9B160032F1F9 /* LaunchScreen.xib */; };
+		CCD6701A1AEA9B160032F1F9 /* FormTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD670191AEA9B160032F1F9 /* FormTestTests.swift */; };
+		CCD670291AEA9EEE0032F1F9 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD670271AEA9EEE0032F1F9 /* FormViewController.swift */; };
+		CCD6702A1AEA9EEE0032F1F9 /* FormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD670281AEA9EEE0032F1F9 /* FormView.xib */; };
+		CCD6702C1AEAA24C0032F1F9 /* RootForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD6702B1AEAA24C0032F1F9 /* RootForm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD670141AEA9B160032F1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD66FF61AEA9B160032F1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD66FFD1AEA9B160032F1F9;
+			remoteInfo = FormTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048AD9273F6A9D479A9AACA0 /* Pods-FormTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormTest/Pods-FormTest.release.xcconfig"; sourceTree = "<group>"; };
+		AA2FAD77765FAD050876BB93 /* libPods-FormTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FormTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB50B3F4CA9834846C9DC599 /* Pods-FormTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormTest/Pods-FormTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD66FFE1AEA9B160032F1F9 /* FormTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD670021AEA9B160032F1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD670031AEA9B160032F1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCD670051AEA9B160032F1F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCD670081AEA9B160032F1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD6700A1AEA9B160032F1F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCD6700D1AEA9B160032F1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCD670131AEA9B160032F1F9 /* FormTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD670181AEA9B160032F1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD670191AEA9B160032F1F9 /* FormTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTestTests.swift; sourceTree = "<group>"; };
+		CCD670231AEA9CBE0032F1F9 /* FormTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FormTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCD670271AEA9EEE0032F1F9 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		CCD670281AEA9EEE0032F1F9 /* FormView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormView.xib; sourceTree = "<group>"; };
+		CCD6702B1AEAA24C0032F1F9 /* RootForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootForm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD66FFB1AEA9B160032F1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85F7505B5F3E4A52AFA0A79 /* libPods-FormTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD670101AEA9B160032F1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C2C55186D9BD3FF440F24F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2FAD77765FAD050876BB93 /* libPods-FormTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617F9D2FC980C14E2FDB6CCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB50B3F4CA9834846C9DC599 /* Pods-FormTest.debug.xcconfig */,
+				048AD9273F6A9D479A9AACA0 /* Pods-FormTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCD66FF51AEA9B160032F1F9 = {
+			isa = PBXGroup;
+			children = (
+				CCD670001AEA9B160032F1F9 /* FormTest */,
+				CCD670161AEA9B160032F1F9 /* FormTestTests */,
+				CCD66FFF1AEA9B160032F1F9 /* Products */,
+				617F9D2FC980C14E2FDB6CCF /* Pods */,
+				05C2C55186D9BD3FF440F24F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD66FFF1AEA9B160032F1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD66FFE1AEA9B160032F1F9 /* FormTest.app */,
+				CCD670131AEA9B160032F1F9 /* FormTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD670001AEA9B160032F1F9 /* FormTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCD670031AEA9B160032F1F9 /* AppDelegate.swift */,
+				CCD670051AEA9B160032F1F9 /* ViewController.swift */,
+				CCD670071AEA9B160032F1F9 /* Main.storyboard */,
+				CCD6700A1AEA9B160032F1F9 /* Images.xcassets */,
+				CCD6700C1AEA9B160032F1F9 /* LaunchScreen.xib */,
+				CCD670011AEA9B160032F1F9 /* Supporting Files */,
+				CCD670231AEA9CBE0032F1F9 /* FormTest-Bridging-Header.h */,
+				CCD670271AEA9EEE0032F1F9 /* FormViewController.swift */,
+				CCD670281AEA9EEE0032F1F9 /* FormView.xib */,
+				CCD6702B1AEAA24C0032F1F9 /* RootForm.swift */,
+			);
+			path = FormTest;
+			sourceTree = "<group>";
+		};
+		CCD670011AEA9B160032F1F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD670021AEA9B160032F1F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD670161AEA9B160032F1F9 /* FormTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD670191AEA9B160032F1F9 /* FormTestTests.swift */,
+				CCD670171AEA9B160032F1F9 /* Supporting Files */,
+			);
+			path = FormTestTests;
+			sourceTree = "<group>";
+		};
+		CCD670171AEA9B160032F1F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD670181AEA9B160032F1F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD66FFD1AEA9B160032F1F9 /* FormTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD6701D1AEA9B160032F1F9 /* Build configuration list for PBXNativeTarget "FormTest" */;
+			buildPhases = (
+				8503B6E93ED007EDD7AFABF5 /* Check Pods Manifest.lock */,
+				CCD66FFA1AEA9B160032F1F9 /* Sources */,
+				CCD66FFB1AEA9B160032F1F9 /* Frameworks */,
+				CCD66FFC1AEA9B160032F1F9 /* Resources */,
+				4912B4B7F9CC0035A8AEEC78 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormTest;
+			productName = FormTest;
+			productReference = CCD66FFE1AEA9B160032F1F9 /* FormTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD670121AEA9B160032F1F9 /* FormTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD670201AEA9B160032F1F9 /* Build configuration list for PBXNativeTarget "FormTestTests" */;
+			buildPhases = (
+				CCD6700F1AEA9B160032F1F9 /* Sources */,
+				CCD670101AEA9B160032F1F9 /* Frameworks */,
+				CCD670111AEA9B160032F1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD670151AEA9B160032F1F9 /* PBXTargetDependency */,
+			);
+			name = FormTestTests;
+			productName = FormTestTests;
+			productReference = CCD670131AEA9B160032F1F9 /* FormTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD66FF61AEA9B160032F1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Gorski";
+				TargetAttributes = {
+					CCD66FFD1AEA9B160032F1F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCD670121AEA9B160032F1F9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCD66FFD1AEA9B160032F1F9;
+					};
+				};
+			};
+			buildConfigurationList = CCD66FF91AEA9B160032F1F9 /* Build configuration list for PBXProject "FormTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD66FF51AEA9B160032F1F9;
+			productRefGroup = CCD66FFF1AEA9B160032F1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD66FFD1AEA9B160032F1F9 /* FormTest */,
+				CCD670121AEA9B160032F1F9 /* FormTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD66FFC1AEA9B160032F1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD670091AEA9B160032F1F9 /* Main.storyboard in Resources */,
+				CCD6700E1AEA9B160032F1F9 /* LaunchScreen.xib in Resources */,
+				CCD6702A1AEA9EEE0032F1F9 /* FormView.xib in Resources */,
+				CCD6700B1AEA9B160032F1F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD670111AEA9B160032F1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4912B4B7F9CC0035A8AEEC78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormTest/Pods-FormTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8503B6E93ED007EDD7AFABF5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD66FFA1AEA9B160032F1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD670291AEA9EEE0032F1F9 /* FormViewController.swift in Sources */,
+				CCD6702C1AEAA24C0032F1F9 /* RootForm.swift in Sources */,
+				CCD670061AEA9B160032F1F9 /* ViewController.swift in Sources */,
+				CCD670041AEA9B160032F1F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD6700F1AEA9B160032F1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD6701A1AEA9B160032F1F9 /* FormTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD670151AEA9B160032F1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD66FFD1AEA9B160032F1F9 /* FormTest */;
+			targetProxy = CCD670141AEA9B160032F1F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD670071AEA9B160032F1F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD670081AEA9B160032F1F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD6700C1AEA9B160032F1F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD6700D1AEA9B160032F1F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD6701B1AEA9B160032F1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD6701C1AEA9B160032F1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD6701E1AEA9B160032F1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB50B3F4CA9834846C9DC599 /* Pods-FormTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FormTest/FormTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCD6701F1AEA9B160032F1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048AD9273F6A9D479A9AACA0 /* Pods-FormTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FormTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FormTest/FormTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CCD670211AEA9B160032F1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FormTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormTest.app/FormTest";
+			};
+			name = Debug;
+		};
+		CCD670221AEA9B160032F1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FormTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormTest.app/FormTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD66FF91AEA9B160032F1F9 /* Build configuration list for PBXProject "FormTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6701B1AEA9B160032F1F9 /* Debug */,
+				CCD6701C1AEA9B160032F1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD6701D1AEA9B160032F1F9 /* Build configuration list for PBXNativeTarget "FormTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD6701E1AEA9B160032F1F9 /* Debug */,
+				CCD6701F1AEA9B160032F1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD670201AEA9B160032F1F9 /* Build configuration list for PBXNativeTarget "FormTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD670211AEA9B160032F1F9 /* Debug */,
+				CCD670221AEA9B160032F1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD66FF61AEA9B160032F1F9 /* Project object */;
+}
